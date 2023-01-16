@@ -222,3 +222,29 @@ h2 .future {
     font-size: 25px;
     line-height: 30px;
 }
+
+/* third part */
+.details {
+    text-align: center;
+}
+
+.details h2 {
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 100px;
+}
+
+.details p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px 370px 50px;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px 50px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
