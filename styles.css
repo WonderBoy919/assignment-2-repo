@@ -153,6 +153,11 @@ h2 .future {
     padding: 20px 35px 20px 30px;
 }
 
+.box:hover {
+    background-color: rgb(251, 245, 194);
+    filter: drop-shadow(0px 6px 8px rgba(71, 65, 65, 0.25));
+}
+
 .box h3 {
     font-weight: 600;
     font-size: 20px;
@@ -169,4 +174,51 @@ h2 .future {
 .image {
     margin-right: 100px;
     margin-top: 30px;
+}
+
+/* third part */
+.fact_border {
+    display: flex;
+    text-align: center;
+    margin: 0 180px 50px;
+    justify-content: space-between;
+}
+
+.fact_box {
+    border: 2px solid rgb(240, 230, 138);
+    border-radius: 7px;
+    width: 180px;
+    height: 180px;
+}
+
+.fact_box:hover {
+    background-color: rgb(255, 247, 171);
+    filter: drop-shadow(0px 6px 8px rgba(71, 65, 65, 0.25));
+}
+
+.facts h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    padding: 120px 0px 20px 150px;
+}
+
+.des {
+    padding: 0 100px 70px 150px;
+    margin-right: 550px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.fact_img {
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+.fact_box h3 {
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
 }
