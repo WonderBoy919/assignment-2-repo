@@ -248,3 +248,20 @@ h2 .future {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
+
+/* footer */
+footer {
+    border: 1px solid rgb(240, 230, 138);
+    margin: 100px 90px 80px;
+    height: 70px;
+    background-color: rgb(240, 230, 138);
+    border-radius: 8px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 22px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
